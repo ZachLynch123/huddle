@@ -33,6 +33,8 @@ nav ul {
 }
 
 .grow-together-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
     max-width: 70%;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
