@@ -31,3 +31,9 @@ nav ul {
 .header-container-image img {
     width: 100%;
 }
+
+.grow-together-container {
+    margin: 0 auto;
+    max-width: 70%;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
+}
