@@ -1,0 +1,33 @@
+body {
+    margin: 0;
+}
+
+nav ul {
+    margin: 0;
+    display: flex;
+    flex-direction: row;
+    width: 85vw;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+    padding: 3% 6%;
+}
+
+.header {
+    background-image: url(./images/bg-hero-desktop.svg);
+}
+
+.header-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 6%;
+}
+
+.header-container-text {
+    padding-left: 10%;
+    padding-right: 10%;
+}
+
+.header-container-image img {
+    width: 100%;
+}

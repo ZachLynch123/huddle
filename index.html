@@ -5,6 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
 
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" type="text/css" href="styles.css">
   
   <title>Frontend Mentor | Huddle landing page with alternating feature blocks</title>
 
@@ -17,17 +18,19 @@
 <body>
   <!-- Try to use CSS Grid and position before resorting to bootstrap-->
 
-  <header>
-    <ul>
-      <li><a href="#"><img src="./images/logo.svg" alt="logo">
-      </a></li>
-      <li><a href="#"><button>Try It Free</button></a></li>
-    </ul>
+  <header class="header">
+    <nav class="nav-bar">
+      <ul>
+        <li><a href="#"><img src="./images/logo.svg" alt="logo">
+        </a></li>
+        <li><a href="#"><button>Try It Free</button></a></li>
+      </ul>
+  </nav>
 
     <div class="header-container">
       <!--column one of css grid-->
       <div class="header-container-text">
-         <h3 class="header-container-title">Build The Community Your Fans Will Love</h3>
+         <h1 class="header-container-title">Build The Community Your Fans Will Love</h3>
          <p class="header-container-about">Huddle re-imagines the way we build communities. You have a voice, but so does your audience. 
             Create connections with your users as you engage in genuine discussion.</p>
           <a href="#" class="call-to-actoin"><button class="get-started">Get Started For Free</button></a>
