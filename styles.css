@@ -32,21 +32,31 @@ nav ul {
     width: 100%;
 }
 
-.grow-together-container {
+.card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
+    margin-top: 5%;
     max-width: 70%;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
 }
 
-.grow-together-text {
+.card-text {
     margin: auto;
     padding-left: 10%;
 }
 
-.growing-together-img {
+.card-img {
     width: 70%;
     padding: 5%;
     float: right;
+}
+
+.left {
+    float: left;
+    width: 72%;
+}
+
+.reversed {
+    grid-auto-flow: dense
 }
