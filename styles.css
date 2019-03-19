@@ -35,6 +35,7 @@ nav ul {
 .card-container {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
+    border-radius: 10px;
     margin: 0 auto;
     margin-top: 5%;
     max-width: 70%;
@@ -57,6 +58,24 @@ nav ul {
     width: 72%;
 }
 
-.reversed {
-    grid-auto-flow: dense
+.action-container {
+    margin: 0 auto;
+    margin-top: 3%;
+    width: 40%;
+    box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
+    border-radius: 10px;
+    z-index: 100000;
+    text-align: center;
+}
+
+.action-title {
+    padding-top: 5%
+}
+
+.action-button {
+    margin-bottom: 2rem;
+}
+
+.footer-container {
+    background-color: hsl(192, 100%, 9%)
 }
