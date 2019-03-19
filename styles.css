@@ -39,3 +39,14 @@ nav ul {
     max-width: 70%;
     box-shadow: 1px 1px 3px 2px rgba(0, 0, 0, .3);
 }
+
+.grow-together-text {
+    margin: auto;
+    padding-left: 10%;
+}
+
+.growing-together-img {
+    width: 70%;
+    padding: 5%;
+    float: right;
+}
