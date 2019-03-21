@@ -59,6 +59,7 @@ nav ul {
 }
 
 .action-container {
+    position: relative;
     margin: 0 auto;
     margin-top: 3%;
     width: 40%;
@@ -66,6 +67,7 @@ nav ul {
     border-radius: 10px;
     z-index: 100000;
     text-align: center;
+    background-color: #fff;
 }
 
 .action-title {
@@ -77,5 +79,7 @@ nav ul {
 }
 
 .footer-container {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
     background-color: hsl(192, 100%, 9%)
 }
