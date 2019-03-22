@@ -137,9 +137,16 @@ nav ul {
 }
 
 @media only screen and (max-width: 600px) {
-
+    .header {
+        padding: 1rem .1rem;
+    }
     nav ul img {
-        width: 75%;
+        width: 57%;
+    }
+
+    .call-to-action {
+        padding: 15px 60px;
+        font-size: 1rem;
     }
 
     .nav {
@@ -147,4 +154,19 @@ nav ul {
         padding: 5px 5px;
         font-size: .9rem;
     }
+
+    .header-container {
+        grid-template-columns: repeat(1, 1fr);
+        text-align: center;
+    }
+    
+    .header-container-text {
+        padding: 5rem 1rem;
+    }
+
+    .header-container-about {
+        padding: 1rem 0;
+    }
+
+    
 }
